@@ -1,0 +1,22 @@
+15:52:29 ./client BAL mySavings f f
+Balance of mySavings is 4000
+15:52:59 ./client BAL myCD f f
+Balance of myCD is 1000
+15:53:01 ./client TRANSFER mySavings myCD 100 f f
+Transfer Succeded! 
+15:53:10 ./client BAL myCD f f                   
+Balance of myCD is 1100
+16:02:57 ./client BAL mySavings f f              
+Balance of mySavings is 3900
+16:03:02 ./client WITHDRAW myCD 100 f f          
+Withdraw Succeded! 
+16:03:19 ./client WITHDRAW myCD 100 f f
+Withdraw Succeded! 
+16:03:21 ./client WITHDRAW myCD 100 f f
+Withdraw Succeded! 
+16:03:22 ./client WITHDRAW myCD 100 f f
+Error: too many withdrawals in aminute !! 
+16:03:23 ./client WITHDRAW myCD 100 f f
+Error: too many withdrawals in aminute !! 
+16:03:25 ./client BAL myCD f f
+Balance of myCD is 800
